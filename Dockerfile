@@ -33,8 +33,8 @@ RUN curl -sSJL "https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sd
 
 env PATH /usr/local/google-cloud-sdk/bin:$PATH
 
-ARG NODE_VERSION=6.11.2
-ARG NPM_VERSION=3.10.10
+ARG NODE_VERSION=8.4.0
+ARG NPM_VERSION=5.0.3
 ARG YARN_VERSION=0.27.5
 ARG CHROMEDRIVER_VERSION=2.31
 ARG PHANTOMJS_VERSION=2.1.1

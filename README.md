@@ -2,8 +2,8 @@
 
 Base image with:
 - python 2.7.12
-- node v6.11.2
-- npm v3.10.10
+- node v8.4.0
+- npm v5.0.3
 - yarn 0.27.5
 - chromedriver 2.31
 - phantomjs 2.1.1
@@ -17,11 +17,11 @@ Base image with:
 
 ## Build the image
 ```
-docker build -t lukastborges/python-gcloud-node:v6 .
+docker build -t lukasborges/python-gcloud-node:v7 .
 ```
 
 ## Push the image
 
 ```
-docker push lukastborges/python-gcloud-node
+docker push lukasborges/python-gcloud-node:v7
 ```
