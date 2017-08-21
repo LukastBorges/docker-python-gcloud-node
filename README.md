@@ -10,18 +10,18 @@ Base image with:
 
 # Docker hub
 
-[joaovitor/python-gcloud-node](https://hub.docker.com/r/joaovitor/python-gcloud-node/)
+[lukasborges/python-gcloud-node](https://hub.docker.com/r/lukasborges/python-gcloud-node/)
 
 # Commands
 
 
 ## Build the image
 ```
-docker build -t joaovitor/python-gcloud-node:v6 .
+docker build -t lukastborges/python-gcloud-node:v6 .
 ```
 
 ## Push the image
 
 ```
-docker push joaovitor/python-gcloud-node
+docker push lukastborges/python-gcloud-node
 ```
